@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+- (void)uploadBoardwithImage:(UIImage*)image;
+
 @end

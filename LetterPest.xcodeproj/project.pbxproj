@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8B4F2AA9A7447D78D8EDF2A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB048F6CA254782947D7B4A /* libPods.a */; };
 		F24BBA79164C47F80090943D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24BBA78164C47F80090943D /* UIKit.framework */; };
 		F24BBA7B164C47F80090943D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24BBA7A164C47F80090943D /* Foundation.framework */; };
 		F24BBA7D164C47F80090943D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24BBA7C164C47F80090943D /* CoreGraphics.framework */; };
@@ -23,6 +24,9 @@
 		F24BBA9F164C47F90090943D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24BBA7A164C47F80090943D /* Foundation.framework */; };
 		F24BBAA7164C47F90090943D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F24BBAA5164C47F90090943D /* InfoPlist.strings */; };
 		F24BBAAA164C47F90090943D /* LetterPestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F24BBAA9164C47F90090943D /* LetterPestTests.m */; };
+		F24BBAB4164C48510090943D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F24BBAB3164C48510090943D /* AssetsLibrary.framework */; };
+		F24BBADC164DC27A0090943D /* letterpest_iphone_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F24BBADA164DC27A0090943D /* letterpest_iphone_icon.png */; };
+		F24BBADD164DC27A0090943D /* letterpest_iphone_icon@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = F24BBADB164DC27A0090943D /* letterpest_iphone_icon@x2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AB048F6CA254782947D7B4A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4E547B893E4A1B9848EA8F /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		F24BBA74164C47F80090943D /* LetterPest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetterPest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F24BBA78164C47F80090943D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F24BBA7A164C47F80090943D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F24BBA7C164C47F80090943D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F24BBA78164C47F80090943D /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F24BBA7A164C47F80090943D /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F24BBA7C164C47F80090943D /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F24BBA80164C47F80090943D /* LetterPest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LetterPest-Info.plist"; sourceTree = "<group>"; };
 		F24BBA82164C47F80090943D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F24BBA84164C47F80090943D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -58,6 +64,9 @@
 		F24BBAA6164C47F90090943D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F24BBAA8164C47F90090943D /* LetterPestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LetterPestTests.h; sourceTree = "<group>"; };
 		F24BBAA9164C47F90090943D /* LetterPestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterPestTests.m; sourceTree = "<group>"; };
+		F24BBAB3164C48510090943D /* AssetsLibrary.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F24BBADA164DC27A0090943D /* letterpest_iphone_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = letterpest_iphone_icon.png; sourceTree = "<group>"; };
+		F24BBADB164DC27A0090943D /* letterpest_iphone_icon@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "letterpest_iphone_icon@x2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +74,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F24BBAB4164C48510090943D /* AssetsLibrary.framework in Frameworks */,
 				F24BBA79164C47F80090943D /* UIKit.framework in Frameworks */,
 				F24BBA7B164C47F80090943D /* Foundation.framework in Frameworks */,
 				F24BBA7D164C47F80090943D /* CoreGraphics.framework in Frameworks */,
+				E8B4F2AA9A7447D78D8EDF2A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +98,13 @@
 		F24BBA69164C47F80090943D = {
 			isa = PBXGroup;
 			children = (
+				F24BBADF164DC2820090943D /* Resouces */,
+				F24BBAB3164C48510090943D /* AssetsLibrary.framework */,
 				F24BBA7E164C47F80090943D /* LetterPest */,
 				F24BBAA2164C47F90090943D /* LetterPestTests */,
 				F24BBA77164C47F80090943D /* Frameworks */,
 				F24BBA75164C47F80090943D /* Products */,
+				AC4E547B893E4A1B9848EA8F /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +124,7 @@
 				F24BBA7A164C47F80090943D /* Foundation.framework */,
 				F24BBA7C164C47F80090943D /* CoreGraphics.framework */,
 				F24BBA9C164C47F90090943D /* SenTestingKit.framework */,
+				6AB048F6CA254782947D7B4A /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -160,6 +175,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F24BBADF164DC2820090943D /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				F24BBADA164DC27A0090943D /* letterpest_iphone_icon.png */,
+				F24BBADB164DC27A0090943D /* letterpest_iphone_icon@x2.png */,
+			);
+			name = Resouces;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,6 +194,7 @@
 				F24BBA70164C47F80090943D /* Sources */,
 				F24BBA71164C47F80090943D /* Frameworks */,
 				F24BBA72164C47F80090943D /* Resources */,
+				D3DEA8A32402417793F4E51D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +261,8 @@
 				F24BBA8D164C47F80090943D /* Default@2x.png in Resources */,
 				F24BBA8F164C47F80090943D /* Default-568h@2x.png in Resources */,
 				F24BBA95164C47F80090943D /* ViewController.xib in Resources */,
+				F24BBADC164DC27A0090943D /* letterpest_iphone_icon.png in Resources */,
+				F24BBADD164DC27A0090943D /* letterpest_iphone_icon@x2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +277,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		D3DEA8A32402417793F4E51D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
 		F24BBA99164C47F90090943D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -374,6 +415,7 @@
 		};
 		F24BBAAE164C47F90090943D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4E547B893E4A1B9848EA8F /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LetterPest/LetterPest-Prefix.pch";
@@ -385,6 +427,7 @@
 		};
 		F24BBAAF164C47F90090943D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4E547B893E4A1B9848EA8F /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LetterPest/LetterPest-Prefix.pch";
@@ -447,6 +490,7 @@
 				F24BBAAF164C47F90090943D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F24BBAB0164C47F90090943D /* Build configuration list for PBXNativeTarget "LetterPestTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +499,7 @@
 				F24BBAB2164C47F90090943D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
